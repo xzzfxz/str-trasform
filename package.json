@@ -17,7 +17,7 @@
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "onStartupFinished"
   ],
   "main": "./dist/extension.js",
   "contributes": {
@@ -47,22 +47,22 @@
         {
           "command": "str-transform.toUpper",
           "when": "editorHasSelection",
-          "group": "transform@1"
+          "group": "01transform@1"
         },
         {
           "command": "str-transform.toLower",
           "when": "editorHasSelection",
-          "group": "transform@1"
+          "group": "01transform@1"
         },
         {
           "command": "str-transform.toNumber",
           "when": "editorHasSelection",
-          "group": "transform@1"
+          "group": "01transform@1"
         },
         {
           "command": "str-transform.toString",
           "when": "editorHasSelection",
-          "group": "transform@1"
+          "group": "01transform@1"
         }
       ]
     }

@@ -3,7 +3,6 @@
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log('###################################################');
   // 小写转大写
   const toUpper = vscode.commands.registerCommand(
     'str-transform.toUpper',
