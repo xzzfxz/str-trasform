@@ -1,5 +1,9 @@
 {
   "name": "str-transform",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xzzfxz/str-trasform"
+  },
   "publisher": "xzzfxz",
   "displayName": "str-transform",
   "description": "transform upper or lower or number or string 将选中的字符转换成大写，小写，数字，字符串",
@@ -9,7 +13,7 @@
     "数字转字符串",
     "字符串转数字"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.71.0"
   },
